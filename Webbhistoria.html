@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Test</a>
+        <a href="#" class="w3-bar-item w3-button">Test</a>
+        <a href="#" class="w3-bar-item w3-button">Test</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/la.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/ny.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/chicago.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">WEBBUTVECKLINGS HISTORIA</h2>
+    <p class="w3-opacity"><i>Av Daniel Kaller</i></p>
+    <p class="w3-justify">TEKNIK - Innan internet fanns systemen EIES, KOM och Minitel, det sägs att detta var de grundläggande organisationerna till internets uppkomst. USA och deras system ARPANET sägs också vara en stor påverkan på internets uppkomst/påverkande i samhället. HTTP är ett kommunikationsprotokoll som används för att överföra webbsidor på informationsnätverket WWW, World Wide Web. HTTP var först tänkt att användas för att överföra HTML sidor från webbservrar till webbklienter. TPC är ett förbindelseorienterat dataöverföringsprookoll och används som en dataström mellan två datorer. TCP används för kommunikationsprotokoller som exempelvis HTTP, FTP och e-post (SMTP, IMAP och POP3). IP-adress används som en adress på internet, en IP-adress består av nummer och identifierar datorer/apparater som är uppkloppat till ett visst nätverk. DNS eller domännamnssystemet funktion är att hjälpa IP-nätverk med att ersätta en numer kod med text, exempel på detta: "217.21.237.35" istället för att skriva denna IP-adress gör DNS så att du bara behöver skriva "www.stockholm.se" (exempel från Wikipedia). FTP var en föregångare till HTTP och är en filöverföringsprotokoll för internet. FTP byttes ut eftersom att det var ett osäkrt protokoll, främst för att lösenord och data skickas i klartext vilket gör att folk kan få tag i information från dataströmmen. Det är viktigt att utgå från gällande standard av HTML eftersom att för att förenkla kodning för alla är det viktigt att använda samma web standard. Detta är viktigt med att alla använder en gemensam web sandard eftersom att de blir enklare att förstå varandras koder/webbläsare ska kunna tolka din hemsida på rätt sätt. Därför ville man skappa en kodnings norm som HTML och XHTML. 
+        <br>
+    <br>
+HISTORIA 
+<br>
+Den första perioden (1960-1970-talet) - 1969 kom Amerikanska försvaret på sätt att koppla ihop datorer i nätverk, vilket fick namnet ARPANET. 
+De första meddelandet som Amerikanerna fick iväg var "LO". 
+Amerikanska försvaret gjorde detta för att försvara deras kommunikation, 
+om Ryssland hade gått till attack mot Amerika och bombat/förstört deras 
+telefon linjer hade inte Amerikanerna haft något sätt att kommunicera med varandra vilket hade sänkt sannolikhet för att Amerika skulle komma i top.
+1974 skappades Tekniken som utgör dagens internet: TCP/IP.
+1978 Föreslog Vint Cerf och Robert Kahn att all kommuniktations skulle krypteras.
+Amerikanska säkerhetsmyndigheten NSA såg ner på detta förslag med motivering att det skulle krävas för mycket datorkraft och att det skulle göra nätverket för tungt. 
+<br> <br>
+Den andra perioden (1980-1990 talet) - Universitet främst i USA skappade tidigt i 80-talet ett datanät mellan sig. 1985 infördes toppdomäner som t.ex .com , .se , .net . Detta gjordes för att hantera större mängd av datorer.
+Till 1988 hade ingen stor katastrof inträffat, men den 2 november hände det en katastrof som fick namnet "The Internet Worm". Denna katastrof handlade om att det fanns ett program på datorer som samlade information om användare, datorer och nätverk. Det spred sig genom att göra intrång på datorer som sedan skickades vidare till en annan genom t.ex mail.
+I början av 90-talet var internet bestående av en siffra på cirka 25 tusen sammankopplande nätverk. 1995 släppte Microsoft, Internet Explorer. Slutet av 90-talet släppte Google webbläsaren Chrome, vilket är den största webbläsaren i moderntid. 
+
+<br> <br>
+Den tredje perioden (2000-2010 talet) - Google's Chrome växte störst på internet och självaste internetet blev en stor del av vardagen för befolkning i de främsta länderna (Främst västvärlden) och internet var nu en väletablerad platform för männskligheten. 
+2001 Släpptes faktauppslaget Wikipedia och Facebook dök upp 2004. 
+</p>
+
+  
+<!-- End Page Content -->
+</div>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
