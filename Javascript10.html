@@ -1,0 +1,40 @@
+<html>
+<head>
+</head>
+<body>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<h3>Day or night time? Witch do you prefer?</h3>
+<br>
+<button onclick="document.getElementById('myImage').src='sunlightmc.png'">Day time</button>
+
+<img id="myImage" src="minecraftmoon.jpg" style="width:200px">
+
+<button onclick="document.getElementById('myImage').src='minecraftmoon.jpg'">Night time</button>
+
+<br>
+<h3>Here is the official minecraft trailer for you to watch</h3>
+<button onclick="playVideo()" type="button">Play</button>
+<button onclick="pauseVideo()" type="button">Pause</button><br> 
+<video id="myVid" width="400" height="200">
+ <source src="Official Minecraft Trailer.mp4" type="video/mp4">
+  Sorry, your browser does not support HTML5 video.
+</video>
+<script> 
+var myVideo = document.getElementById("myVid");
+function playVideo() { 
+ myVideo.play(); 
+} 
+function pauseVideo() { 
+ myVideo.pause(); 
+} 
+</script> 
+
+<p id="demo2"></p>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "Survival mode innehåller verktyg, djur, monster, mer realistiskt vatten, olika landskapstyper (tundra, öken, lövskog, barrskog, djungel, snölandskap m.m.) och mycket annat som inte finns i Classic mode. När spelaren startar en ny spelvärld börjar den utan några resurser eller verktyg. Uppgiften är sedan att överleva den första och de kommande nätterna. För att överleva första natten då monstren kommer fram måste man ha hunnit samla ihop resurser (trä, flinta etc.). Spelet går sedan ut på att bygga större saker, göra området säkrare och skaffa bättre verktyg, vapen och andra resurser."'>Information om Minecrafts framgång, Survival mode</button>
+<p id="demo2"></p>
+</body>
+</html>
