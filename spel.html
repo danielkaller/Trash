@@ -1,0 +1,33 @@
+<head>
+    <title>Gissa talet</title>
+    </head>
+    <body>
+    <script language="JavaScript">
+    var number = Math.floor(1+Math.random()*50);
+    
+    function guess() {
+       var g;
+       g = parseInt(document.gissa.gissning.value);
+       if (g == number) {
+          window.alert("Det var rätt!");
+          document.gissa.resultat.value = "";
+          number = Math.floor(1+Math.random()*50);
+       } else {
+          if (document.gissa.gissning.value < number) {
+             document.gissa.resultat.value = "För litet!";
+          } else {
+             document.gissa.resultat.value = "För stort!";
+          }
+       }
+    }
+    
+    </script>
+    
+    <h1>Gissa på ett tal mellan 1 till 50!</h1>
+    <form name="gissa">
+    Gissning:<input name="gissning" type="text">
+    <input type="button" value="Prova!" onclick="guess()"><p>
+    <input name="resultat" type="text" value="">
+    </form>
+    
+    </body>
