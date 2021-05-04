@@ -154,6 +154,7 @@ ul {
         height: 80%;
         text-align: center;
         margin-left:0px;
+        color: rgba(0, 42, 54, 0.984);
     }
     .window{
       width: 70%;
@@ -164,5 +165,7 @@ ul {
     .startspacer{
       height: 14vh;
     }
-    
+    .dropdown-content {
+      m  
+    }
   }
