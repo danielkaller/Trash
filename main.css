@@ -147,13 +147,11 @@ ul {
       height: 50%;
       position:relative;  top: 40%;
       margin: auto +5%;
-
     }
     .windowpicture2 p{
       font-size: 70%;
         height: 80%;
         text-align: center;
-        float: center;
         margin-top:20px;
     }
     .window{
