@@ -129,6 +129,7 @@ ul {
      .windowpicture2 p{
        font-size: 34px;
    margin-left: 40px;
+   margin-top: 40px;
    width: 650px;
    height: 1000px;
       color: black;
@@ -152,7 +153,8 @@ ul {
       font-size: 70%;
         height: 80%;
         text-align: center;
-        margin-left:0px;
+        float: center;
+        margin-top:20px;
     }
     .window{
       width: 70%;
