@@ -166,6 +166,6 @@ ul {
       height: 14vh;
     }
     .dropdown-content {
-      m  
+      min-width: 20px; 
     }
   }
