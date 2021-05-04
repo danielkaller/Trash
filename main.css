@@ -130,6 +130,7 @@ ul {
        font-size: 34px;
    margin-left: 40px;
    margin-top: 40px;
+   position: absolute;
    width: 650px;
    height: 1000px;
       color: black;
