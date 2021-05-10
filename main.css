@@ -132,10 +132,7 @@ ul {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* width:50vw; */
-    /* height: 50vh; */
      }
 
      img {
@@ -147,8 +144,6 @@ ul {
    margin-left: 40px;
    padding: 10px;
    width: 800px;
-   /* width: 800px; */
-   /* height: 1000px; */
       color: black;
        }
   @media screen and (max-width: 1400px) {
@@ -161,9 +156,6 @@ ul {
     }
 
     .windowpicture2 .img{
- /* width: 200px; */
-      /* height: 50%; */
-      /* width: 90%; */
       padding: 10px;
       padding-bottom: 100px;
 
